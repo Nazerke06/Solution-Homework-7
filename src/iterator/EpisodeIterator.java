@@ -1,4 +1,8 @@
 package iterator;
 
-public class EpisodeIterator {
+import episode.Episode;
+
+public interface EpisodeIterator {
+    boolean hasNext();
+    Episode next();
 }
