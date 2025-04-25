@@ -1,10 +1,10 @@
-package model;
+package firstTask.model;
 
-import episode.Episode;
-import iterator.*;
+import firstTask.episode.Episode;
+import firstTask.iterator.*;
 import java.util.*;
 
-public class Season implements Iterable<Episode> {
+public  class Season implements Iterable<Episode> {
     private List<Episode> episodes = new ArrayList<>();
 
     public void addEpisode(Episode e) {
@@ -13,7 +13,7 @@ public class Season implements Iterable<Episode> {
 
     @Override
     public Iterator<Episode> iterator() {
-        return new SeasonIterator(episodes);
+        return (Iterator<Episode>) new SeasonIterator(episodes);
     }
 
     public EpisodeIterator normalIterator() {

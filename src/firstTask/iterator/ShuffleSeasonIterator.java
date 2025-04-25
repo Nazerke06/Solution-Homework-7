@@ -1,15 +1,16 @@
-package iterator;
+package firstTask.iterator;
 
-import episode.Episode;
+import firstTask.episode.Episode;
 
 import java.util.*;
 
-public class SeasonIterator implements EpisodeIterator {
+public  class ShuffleSeasonIterator implements EpisodeIterator {
     private List<Episode> episodes;
     private int currentIndex = 0;
 
-    public SeasonIterator(List<Episode> episodes) {
+    public ShuffleSeasonIterator(List<Episode> episodes) {
         this.episodes = new ArrayList<>(episodes);
+        Collections.shuffle(this.episodes, new Random(42));
     }
 
     @Override

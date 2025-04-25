@@ -1,7 +1,7 @@
-package model;
+package firstTask.model;
 
-import iterator.BingeIterator;
-import iterator.EpisodeIterator;
+import firstTask.iterator.BingeIterator;
+import firstTask.iterator.EpisodeIterator;
 
 import java.util.*;
 

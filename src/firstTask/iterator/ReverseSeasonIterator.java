@@ -1,10 +1,10 @@
-package iterator;
+package firstTask.iterator;
 
-import episode.Episode;
+import firstTask.episode.Episode;
 
 import java.util.*;
 
-public class ReverseSeasonIterator implements EpisodeIterator {
+public  class ReverseSeasonIterator implements EpisodeIterator {
     private List<Episode> episodes;
     private int currentIndex;
 

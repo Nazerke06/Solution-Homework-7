@@ -1,7 +1,7 @@
-package iterator;
+package firstTask.iterator;
 
-import episode.Episode;
-import model.Season;
+import firstTask.episode.Episode;
+import firstTask.model.Season;
 
 import java.util.*;
 

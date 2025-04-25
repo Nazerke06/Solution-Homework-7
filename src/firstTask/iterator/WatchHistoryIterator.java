@@ -1,10 +1,10 @@
-package iterator;
+package firstTask.iterator;
 
-import episode.Episode;
+import firstTask.episode.Episode;
 
 import java.util.*;
 
-public class WatchHistoryIterator implements EpisodeIterator {
+public  class WatchHistoryIterator implements EpisodeIterator {
     private EpisodeIterator baseIterator;
     private Set<String> watchedEpisodes;
     private Episode nextEpisode;

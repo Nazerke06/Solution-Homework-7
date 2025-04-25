@@ -1,4 +1,4 @@
-package episode;
+package firstTask.episode;
 
 public class EpisodeView {
     private Episode episode;

@@ -1,6 +1,6 @@
-package episode;
+package firstTask.episode;
 
-public class Episode {
+public abstract class Episode {
     private String title;
     private int runtimeSec;
 
@@ -16,4 +16,6 @@ public class Episode {
     public int getRuntimeSec() {
         return runtimeSec;
     }
+
+    public abstract void play();
 }

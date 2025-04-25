@@ -1,6 +1,6 @@
-package iterator;
+package firstTask.iterator;
 
-import episode.Episode;
+import firstTask.episode.Episode;
 
 public class SkipIntroIterator implements EpisodeIterator {
     private EpisodeIterator baseIterator;
